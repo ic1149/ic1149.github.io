@@ -134,11 +134,18 @@ h2{
 }
 
 /* The actual content */
-.content {
+.lcontent {
   padding: 1em;
   background-color: #ffffff;
   position: relative;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 20px 1px 20px 20px;
+}
+
+.rcontent {
+  padding: 1em;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 1px 20px 20px 20px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -176,7 +183,11 @@ h2{
 
   }
 
-  .content{
+  .lcontent{
+    margin-left: -3px;
+  }
+
+  .rcontent{
     margin-left: -3px;
   }
 
