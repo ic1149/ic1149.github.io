@@ -171,6 +171,11 @@ h2{
   .right {
     left: 0%;
   }
+
+  .content{
+    margin-left: -3px;
+  }
+  
 }
 
 @media (min-width: 800px) {
