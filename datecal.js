@@ -20,7 +20,7 @@ async function daycounting() {
   const diffTime = Math.abs(date2 - date1);
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
   const duration = 1
-  const interval = (duration / target) * 1000
+  const interval = (duration / diffTime) * 1000
   for (let i = 0; i <= diffTime; i++) {
     document.getElementById("daycount").innerHTML = String(i) + " days";
     await sleep(interval);
