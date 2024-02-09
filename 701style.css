@@ -244,3 +244,13 @@ footer{
   border-radius: 20px;
 }
 
+a:link{
+  color:#00dcff;
+}
+
+
+a:visited{
+  color:#b80099;
+}
+
+
