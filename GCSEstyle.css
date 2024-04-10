@@ -20,6 +20,7 @@ body {
   background-size: cover;
   background-color: #646464;
   background-blend-mode: multiply;
+  background-position: bottom;
 }
 
 p {
