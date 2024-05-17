@@ -6,7 +6,7 @@ async function startcounting() {
   const date1 = new Date('5/9/2024');
   const date2 = new Date();
   const diffTime = Math.abs(date2 - date1);
-  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  const diffDays = 35-Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   const duration = 1
   const interval = (duration / diffDays) * 1000
   for (let i = 0; i <= diffDays; i++) {
